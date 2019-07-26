@@ -16,6 +16,12 @@
             </p>
         </div>
         <input type="text" class="form-control my-3" v-model="fondo">
+        <div class="text-white p-3" :class="{'bg-info': color, 'bg-success' : !color}">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eveniet cum tempore mollitia consectetur magnam ad dolore, facilis nobis neque quidem eaque cumque ex aliquam beatae animi quibusdam deserunt. Veritatis.
+        </div>
+        <div class="btn btn-primary mt-3" @click="color = !color" >
+            cambiar
+        </div>
     </div>
 
     
